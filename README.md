@@ -35,7 +35,7 @@ bation_sg_id            = ""
 
 # Usage
 
-## Serverless
+## Aurora Serverless
 
 ```
 module "aurora" {
@@ -62,7 +62,9 @@ module "aurora" {
 ```
 
 
-## Aurora Cluster
+## Aurora Cluster Provisioned
+
+Aurora Cluster Provisioned is the default configuration of this module
 
 ```
 module "aurora" {
