@@ -9,7 +9,7 @@ It creates and Aurora Cluster (Serverless or not) inside a subnet, and VPC. It c
 
 - VPC
 - Subnets
-- availability_zones
+- Availability Zones
 
 ## Optional
 
