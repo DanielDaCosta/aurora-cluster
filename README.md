@@ -1,5 +1,5 @@
 # AWS Aurora Cluster
-Terraform module for creating an aurora cluster using an already created VPC and Subnets.
+Terraform module for creating an aurora cluster using an existing VPC and Subnets.
 
 It creates and Aurora Cluster (Serverless or not) inside a subnet, and VPC. It creates the necessary Security Groups, and also, if necessary, the security group for the EC2 bastion.
 
