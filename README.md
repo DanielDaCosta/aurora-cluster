@@ -12,8 +12,9 @@ It creates and Aurora Cluster (Serverless or not) inside a subnet, and VPC. It c
 - Availability Zones
 
 ## Optional
+EC2 for bastion access. If desired, this module will create a security group for RDS and bastion communication. 
 
-- EC2 for bastion access. If desired, this module will create a security group for RDS and bastion communication
+`bastion_access = true`
 
 ## Variables
 
